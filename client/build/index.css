@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+#builder {
+  width: 90%;
+  min-width: 290px;
+  max-width: 1200px;
+  height: 90vh;
+  margin: auto;
+  margin-top: 5vh;
+  background: lightgray;
+  cursor: crosshair;
+}
+
+#builder .block:hover {
+  border: 5px dashed;
+  background: lightcoral;
+  cursor: default;
+}
